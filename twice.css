@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+.parent{
+    margin: 0;
+    background-color: paleturquoise;
+    height: 100ch;
+}
+.child{
+    position: absolute;
+   background-color: slategray;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.child2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 50px;
+    bottom: 10px;
+    width: 500px;
+    height: auto;
+}
+img{
+    width: 350px;
+    height: auto;
+    position: relative;
+    left: 50px;
+}
+span{
+    display: inline-block;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 60px;
+}
